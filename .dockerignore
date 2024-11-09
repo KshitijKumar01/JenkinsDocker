@@ -1,0 +1,4 @@
+*.txt
+# ignore all the files with .txt extension else we can just write the file name with extension
+
+node_modules
