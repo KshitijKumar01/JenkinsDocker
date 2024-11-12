@@ -26,4 +26,5 @@ jobs:
           tags: "kshitijk010/jenkinsprjt:latest"
           
       - name: Run Docker container
-        run: docker run -d --name jenkinsprjt_container -p 5000:5000 kshitijk010/jenkinsprjt:latest
+        run: |
+          docker run -d --name jenkinsprjt_container -p 5000:5000 kshitijk010/jenkinsprjt:latest
